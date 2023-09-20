@@ -1,0 +1,23 @@
+ ALGORITHM algorithm_name
+    VAR
+    sentence = "The quick brown fox jumps over the lazy dog"
+    length =0;
+    letterCount =0;
+    vowelcount =0
+    BEGIN
+    FOR ( var i = 0; i< sentence.length; i++)  var char = sentence[i];FROM 0 TO STEP 42  DO
+    length++;
+    END_FOR
+    IF ('aeiouAEIOU' .indexOf( char) !== -1) THEN
+    vowelcount++;
+    END_IF
+
+    IF ( char ='') THEN
+    wordCount ++
+    END_IF
+
+    END
+
+    
+
+
